@@ -42,6 +42,15 @@ var g_use_subgroups = <?php echo use_subgroups() ? "true" : "false"; ?>;
   </div>
 </div>
 
+<div class="Launch_control_column_container">
+  <div id="launch-group" class="block_buttons">
+    <a class='button_link' 
+    <div id="launch-start">
+      <input type="button" value="Launch Control (gate release)" onclick="handle_launch_contorl();"/>
+    </div>
+  </div>
+<br>
+
 <div class="control_column_container">
 
 <div class="control_column">
